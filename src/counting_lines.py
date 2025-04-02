@@ -1,4 +1,4 @@
-with open("data/dna_sequences.fa") as seqfa:
+with open("results/dna_sequences.fa") as seqfa:
     
     # Conteo de secuencias en el archivo
     counts = len([

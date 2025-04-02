@@ -1,4 +1,4 @@
-with open("data/secuencias_arn.txt","w") as outfile:
+with open("results/secuencias_arn.txt","w") as outfile:
 
     # Ingreso de las secuencias del usuario
     dna_seq = input("Ingrese varias secuencias de ADN separadas por comas: ").split(",")
